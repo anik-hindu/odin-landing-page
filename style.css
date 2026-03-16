@@ -147,3 +147,34 @@ button {
   height: auto;
   width: 100px;
 }
+
+/* Testimonial Section */
+
+.testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 100px 0;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+blockquote {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  max-width: 700px;
+  flex: 1 1 auto;
+}
+
+figcaption {
+  font-size: 18px;
+  font-weight: bold;
+  align-self: flex-end;
+}
