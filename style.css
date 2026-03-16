@@ -112,3 +112,36 @@ button {
   color: #e5e7eb;
   margin: 8px 0;
 }
+
+/* Features Section */
+
+.features {
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 32px;
+}
+
+.features h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+.card {
+  text-align: center;
+  width: 200px;
+}
+.card img {
+  height: auto;
+  width: 100px;
+}
