@@ -80,25 +80,27 @@ button {
   flex-wrap: wrap;
   background-color: #1f2937;
   flex: 1 1 auto;
-  justify-content: space-between;
-  padding: 10%;
-  gap: 48px;
+  justify-content: center;
+  align-items: stretch;
+  padding: 80px 16px;
+  gap: 40px;
 }
 
 .hero img {
   display: block;
   max-width: 100%;
   height: auto;
-  width: 500px;
   border-radius: 32px;
-  flex: 1 1 auto;
+  width: 450px;
+  flex: 0 1 auto;
 }
 
 .box {
   display: flex;
-  width: 500px;
+  width: 450px;
   flex-flow: wrap column;
-  flex: 1 1 auto;
+  justify-content: center;
+  flex: 0 1 auto;
 }
 
 .box h1 {
@@ -120,8 +122,10 @@ button {
   flex-flow: wrap column;
   align-items: center;
   justify-content: center;
+
+  text-align: center;
   gap: 40px;
-  margin: 32px;
+  margin: 32px 16px;
 }
 
 .features h2 {
@@ -138,7 +142,6 @@ button {
 }
 
 .card {
-  text-align: center;
   width: 200px;
 }
 .card img {
