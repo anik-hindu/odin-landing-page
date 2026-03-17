@@ -48,6 +48,9 @@ button {
   padding: 16px;
 }
 
+.footer p {
+  color: #f9faf8;
+}
 .logo {
   color: #f9faf8;
   font-weight: bold;
@@ -170,11 +173,42 @@ blockquote {
   font-weight: 300;
   font-style: italic;
   max-width: 700px;
+  padding: 0 16px;
   flex: 1 1 auto;
 }
 
 figcaption {
   font-size: 18px;
   font-weight: bold;
-  align-self: flex-end;
+}
+
+/* call to action section */
+.cta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+.cta {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 12px;
+  padding: 40px 60px;
+  flex: 1 1 auto;
+  gap: 32px;
+}
+
+.cta-content h2 {
+  color: #f9faf8;
+}
+
+.cta-content p {
+  color: #e5e7eb;
+}
+
+.cta-btn {
+  border: 2px solid white;
+  padding: 8px 16px;
 }
